@@ -53,9 +53,9 @@ const goal = 3;
         </linearGradient>
       </defs>
     </svg>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre mi</a>
-    <a href="/blog/">Blog</a>
+    <a class="link-card-grid" href="/">Inicio</a>
+    <a class="link-card-grid" href="/about/">Sobre mi</a>
+    <a class="link-card-grid" href="/blog/">Blog</a>
 
     <h1><span class="text-gradient">{pageTitle}</span></h1>
     <h2>
@@ -162,5 +162,8 @@ const goal = 3;
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
     gap: 2rem;
     padding: 0;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400 ;
   }
 </style>

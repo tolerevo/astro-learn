@@ -35,9 +35,9 @@ const pageTitle = "Página de Inicio";
         </linearGradient>
       </defs>
     </svg>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre mi</a>
-    <a href="/blog/">Blog</a>
+    <a class="link-card-grid" href="/">Inicio</a>
+    <a class="link-card-grid" href="/about/">Sobre mi</a>
+    <a class="link-card-grid" href="/blog/">Blog</a>
 
     <h1>Bienvenido a la <span class="text-gradient">{pageTitle}</span></h1>
     <p class="instructions">
@@ -129,5 +129,8 @@ const pageTitle = "Página de Inicio";
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
     gap: 2rem;
     padding: 0;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
   }
 </style>
